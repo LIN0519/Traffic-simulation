@@ -1,23 +1,25 @@
 # Traffic-simulation
 
-1.Q1(four algorithm) <\n>
+1.Q1(four algorithm) 
+
         1.	Minium(Threshold):強度夠的時候不切換(Pmin=100dB)
         2.	Best_effort:訊號強者提供訊號
         3.	Entropy:兩基地台訊號落差值超過閾值時候切換(閾值E=25dB)
         4.  Nearest:選最近的基地台來提供服務.
         =>根據這四個個別顯示以下題目環境中，車子訊號切換的次數(個別車或總和)
 2.Q2
-   Q1再加上Call Service model，Model模式為:call、Release(訊號不會服務所以不會發生切換)、call、Release….。
+
+   Q1再加上Call Service model。
    =>平均一小時有2call
    =>平均每個call時間為3mins
    =>程式碼以Normal Distribution :N(μ, σ^2)來模擬。意思是每通電話不是真的3分鐘整就會掛斷，他是一個分布Normal Distribution，也就是說不定會3分5秒通話也可能2分55等等)
 
  模擬環境設定:
+ 
   1.地圖:10x10，每格2.5km(也就是該map大小為25x25km)
 
-  2. 上圖，紅色線為車子可進入的點，總共為9x4=36的進入點。
+2. 上圖，紅色線為車子可進入的點，總共為9x4=36的進入點。
   =>每個進入點出現車子進入的機率為P(n=1,t=1)，λ=5車/分=(1/12)/sec
-
 
   3.每個十字入口移動方向機率:
    (1)前進:1/2
