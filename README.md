@@ -1,6 +1,6 @@
 # Traffic-simulation
 
-1.Q1(four algorithm)
+1.Q1(four algorithm) <\n>
         1.	Minium(Threshold):強度夠的時候不切換(Pmin=100dB)
         2.	Best_effort:訊號強者提供訊號
         3.	Entropy:兩基地台訊號落差值超過閾值時候切換(閾值E=25dB)
