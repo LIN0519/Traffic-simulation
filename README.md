@@ -10,8 +10,11 @@
 2.Q2
 
    Q1再加上Call Service model。
+   
    =>平均一小時有2call
+   
    =>平均每個call時間為3mins
+   
    =>程式碼以Normal Distribution :N(μ, σ^2)來模擬。意思是每通電話不是真的3分鐘整就會掛斷，他是一個分布Normal Distribution，也就是說不定會3分5秒通話也可能2分55等等)
 
  模擬環境設定:
