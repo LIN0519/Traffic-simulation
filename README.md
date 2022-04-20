@@ -21,7 +21,7 @@
       模擬環境設定:
  
          1.地圖:10x10，每格2.5km(也就是該map大小為25x25km)
-         ![image](https://user-images.githubusercontent.com/71643234/151932706-827609d9-de3d-4d02-90ba-02211a489046.png)
+         ![image]( https://user-images.githubusercontent.com/71643234/151932706-827609d9-de3d-4d02-90ba-02211a489046.png)
 
          2. 上圖，紅色線為車子可進入的點，總共為9x4=36的進入點。
    
